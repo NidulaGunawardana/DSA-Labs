@@ -11,6 +11,10 @@ int main()
     bool isMale = true;
 
     cout << grade << endl;
+
+    // can declare multiple varibles in the same line
+
+    int a = 1, b=2;
     
 
     return 0;
