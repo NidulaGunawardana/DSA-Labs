@@ -13,9 +13,10 @@ int main()
     cout << grade << endl;
 
     // can declare multiple varibles in the same line
+    int a = 1, b = 2;
 
-    int a = 1, b=2;
-    
+    // Constants
+    const double pi = 3.14;
 
     return 0;
 }
