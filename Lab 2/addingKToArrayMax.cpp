@@ -18,16 +18,16 @@ vector<string> split(const string &);
 long arrayManipulation(int n, vector<vector<int>> queries)
 {
 
-    vector<int> emptyV(n, 0);
+    vector<long> emptyV(n, 0);
     for (size_t operation = 0; operation < queries.size(); operation++)
     {
-        for (int i = queries[operation][0] - 1; i < queries[operation][1]; i++)
+        for (long i = queries[operation][0] - 1; i < queries[operation][1]; i++)
         {
             emptyV[i] = emptyV[i] + queries[operation][2];
         }
     }
     long max = 0;
-    for (int elem : emptyV)
+    for (long elem : emptyV)
     {
         if (elem >= max)
         {
