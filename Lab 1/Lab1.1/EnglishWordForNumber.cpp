@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int n = 1;
+    int n = 2;
    if (n == 1)
     {
         cout << "one" << endl;
