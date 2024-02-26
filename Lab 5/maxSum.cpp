@@ -36,10 +36,6 @@ int twoStacks(int maxSum, vector<int> a, vector<int> b)
     size_t N = a.size();
     size_t M = b.size();
     ll X = maxSum;
-    // for (int i = 0; i < N; i++)
-    //     cin >> a[i];
-    // for (int i = 0; i < M; i++)
-    //     cin >> b[i];
 
     size_t ans = 0;
     size_t rloc = 0;
